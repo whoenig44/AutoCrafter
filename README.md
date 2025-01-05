@@ -4,7 +4,7 @@
 
 ## Description
 
-Enter Description of Project here
+Welcome to AutoCrafter, the ultimate automobile creation and management tool! Whether you're a car enthusiast, a truck lover, or a motorbike aficionado, AutoCrafter has got you covered. This application allows you to create, customize, and interact with various types of vehicles, including cars, trucks, and motorbikes. With a user-friendly CLI interface powered by Inquirer, you can easily input vehicle details, perform actions, and even tow other vehicles with your truck. Get ready to rev up your engines and explore the world of automobiles like never before!
 
 ## Table of Contents
 
@@ -16,7 +16,13 @@ Enter Description of Project here
 
 ## Installation
 
-Just download this source code to your local machine and run 'npm run start'
+To get started with AutoCrafter, simply clone this repository to your local machine and install the necessary dependencies:
+
+```sh
+git clone https://github.com/yourusername/AutoCrafter.git
+cd AutoCrafter
+npm install
+```
 
 ## Usage
 
