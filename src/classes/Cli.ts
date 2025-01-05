@@ -307,7 +307,6 @@ class Cli {
           type: 'list',
           name: 'action',
           message: 'Select an action',
-          // add options to tow and wheelie
           choices: [
             'Print details',
             'Start vehicle',
@@ -327,12 +326,12 @@ class Cli {
       .then((answers) => {
         // find the selected vehicle
         const selectedVehicle = this.vehicles.find(vehicle => vehicle.vin === this.selectedVehicleVin);
-
+  
         if (!selectedVehicle) {
           console.log('Vehicle not found.');
           return;
         }
-
+  
         // perform the selected action
         switch (answers.action) {
           case 'Print details':
@@ -381,7 +380,7 @@ class Cli {
             this.exit = true;
             break;
         }
-
+  
         if (!this.exit) {
           // if the user does not want to exit, perform actions on the selected vehicle
           this.performActions();
